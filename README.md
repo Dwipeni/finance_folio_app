@@ -1,16 +1,22 @@
 # finance_folio_app
+Aplikasi FinanceFolio App - Project Mobile BNSP Polinema
+Nama: Dwi Peni Ningsih
+NIM: 2141764046
 
-A new Flutter project.
+## Login Page
+![Login Page](https://github.com/Dwipeni/finance_folio_app/assets/88720135/88681a1e-7269-4038-8824-00f420c7c4db)
 
-## Getting Started
+## Home Page
+![Home Page](https://github.com/Dwipeni/finance_folio_app/assets/88720135/074d3b49-1743-4e39-8d8b-9bba15dce26b)
 
-This project is a starting point for a Flutter application.
+## Add Income Page
+![Add Income Page](https://github.com/Dwipeni/finance_folio_app/assets/88720135/103494c3-5ff0-46bd-af27-c0f7a3310858)
 
-A few resources to get you started if this is your first Flutter project:
+## Add Expenditure Page
+![Add Expenditure Page](https://github.com/Dwipeni/finance_folio_app/assets/88720135/d6455eb2-2cdf-4aa2-9dcd-c4c650d9e03a)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Detail Cash Flow Page
+![Detail Cash Flow Page](https://github.com/Dwipeni/finance_folio_app/assets/88720135/97ec7f77-80d6-40ae-92b9-7800af6a7f14)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Settings
+![Settings Page](https://github.com/Dwipeni/finance_folio_app/assets/88720135/b7a7085a-3440-42cd-89f3-e4b8bc0c97b4)
