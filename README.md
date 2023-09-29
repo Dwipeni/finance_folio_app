@@ -16,7 +16,7 @@ NIM: 2141764046
 ![Add Expenditure Page](https://github.com/Dwipeni/finance_folio_app/assets/88720135/d6455eb2-2cdf-4aa2-9dcd-c4c650d9e03a)
 
 ## Detail Cash Flow Page
-![Detail Cash Flow Page](https://github.com/Dwipeni/finance_folio_app/assets/88720135/97ec7f77-80d6-40ae-92b9-7800af6a7f14)
+![Detail Cash Flow Page](https://github.com/Dwipeni/finance_folio_app/assets/88720135/9c46b720-eba2-4103-8d67-0806774123de)
 
 ## Settings
 ![Settings Page](https://github.com/Dwipeni/finance_folio_app/assets/88720135/b7a7085a-3440-42cd-89f3-e4b8bc0c97b4)
