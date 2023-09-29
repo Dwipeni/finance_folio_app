@@ -47,18 +47,27 @@ class _DetailCashFlowPageState extends State<DetailCashFlowPage> {
         title: Text("Detail Cash Flow"),
         backgroundColor: Colors.deepPurple,
       ),
-      body: ListView.builder(
-        itemCount: cashFlowData.length,
-        itemBuilder: (context, index) {
-          final item = cashFlowData[index];
-          final isIncome = item.type == incomeType;
-
+      body: Column(
+      children: <Widget>[
+        const Padding(
+            padding: EdgeInsets.only(top: 20.0),
+            child: Text(
+              "Detail Cash Flow",
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign: TextAlign.left,
+            ),
+          ),
+        Expanded(
+          child: ListView.builder(
+            itemCount: cashFlowData.length,
+            itemBuilder: (context, index) {
+              final item = cashFlowData[index];
+              final isIncome = item.type == incomeType;
           return Container(
             margin: EdgeInsets.symmetric(horizontal: 8.0, vertical: 16.0),
             child: ListTile(
               leading: Icon(
                 isIncome ? Icons.arrow_forward_ios : Icons.arrow_back_ios,
-                color: isIncome ? Colors.deepPurple : Colors.red,
+                color: isIncome ? Colors.green : Colors.red,
               ),
               title: Text(item.date!),
               subtitle: Column(
@@ -83,6 +92,24 @@ class _DetailCashFlowPageState extends State<DetailCashFlowPage> {
             ),
           );
         },
+      ),
+    ),
+    Container(
+      width: double.infinity,
+        child: ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context); // Kembali ke halaman Home
+            },
+              style: ButtonStyle(
+                  backgroundColor:
+                    MaterialStateProperty.all<Color>(Colors.deepPurple),
+                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                          RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16.0)))),
+                  child: const Text("<< Back"),
+                ),
+              ),
+      ],
       ),
     );
   }
